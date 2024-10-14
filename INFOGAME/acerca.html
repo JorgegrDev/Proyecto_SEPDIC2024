@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de - INFOGAME</title>
+    <link rel="icon" href="/Login/icon.jpg.png">
+    <link rel="stylesheet" href="/Login/INFOGAME/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="/Login/INFOGAME/index.html" class="logo">INFOGAME</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/LOGIN/INFOGAME/index.html">Inicio</a></li>
+                    <li><a href="/LOGIN/INFOGAME/novedades.html">Novedades</a></li>
+                    <li><a href="/LOGIN/INFOGAME/clasicos.html">Clásicos</a></li>
+                    <li><a href="/LOGIN/INFOGAME/otros.html">Otros</a></li>
+                </ul>
+            </nav>
+            <form action="" onsubmit="return buscarJuego(event)" autocomplete="off">
+                <div class="barra">
+                    <input type="search" placeholder="Buscar juego..." id="barra">
+                    <i class="fa fa-search"></i>
+                </div>
+            </form>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>Acerca de</h1>
+                <p></p>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="container">
+        <section class="about">
+            <h2></h2>
+            <p>Hola, soy Jorge Garza Rosales, estudiante de IDGS 8-A. Actualmente, estoy elaborando una página informativa sobre videojuegos. Mi objetivo es proporcionar una plataforma donde los entusiastas de los videojuegos puedan descubrir su próximo juego favorito y mantenerse al día con las últimas novedades del mundo de los videojuegos.</p>
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <div class="link">
+            <a href="/Login/INFOGAME/index.html" class="logo">INFOGAME</a>
+        </div>
+        <div class="logout container">
+            <form action="../logout.php" method="post">
+                <button type="submit" class="btn-logout">Cerrar sesión</button>
+            </form>
+        </div>
+        <div class="link">
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="#">Soporte</a></li>
+                <li><a href="#">Preguntas</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "google/cloud-recaptcha-enterprise": "^1.0",
+        "jms/composer-deps-analyzer": "^1.0"
+    }
+}

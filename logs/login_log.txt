@@ -1,0 +1,97 @@
+2024-08-07 22:29:42 - Intento de inicio de sesión fallido para el usuario: 
+2024-08-07 22:30:19 - Intento de inicio de sesión fallido para el usuario: 
+2024-08-07 22:37:59 - Intento de inicio de sesión fallido para el usuario: 210848@utags.edu.mx
+2024-08-07 22:38:08 - Intento de inicio de sesión fallido para el usuario: 210848@utags.edu.mx
+2024-08-07 22:41:26 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-08-07 22:41:39 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-08-07 22:41:45 - Intento de inicio de sesión fallido para el usuario: jorgegarza2003@hotmail.com
+2024-08-07 22:41:56 - Intento de inicio de sesión fallido para el usuario: jorgegarza2003@hotmail.com
+2024-08-07 22:42:03 - Intento de inicio de sesión fallido para el usuario: jorgegarza2003@hotmail.com
+2024-08-07 22:42:08 - Intento de inicio de sesión fallido para el usuario: jorgegarza2003@hotmail.com
+2024-09-05 17:39:33 - Intento de inicio de sesión fallido para el usuario: 210848@utags.edu.mx
+2024-09-05 17:39:39 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-09-05 17:40:04 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-09-10 11:25:19 - Inicio de sesión exitoso para el usuario: 210848@utags.edu.mx
+2024-09-10 11:25:32 - Cierre de sesión para el usuario: 210848@utags.edu.mx
+2024-09-10 11:25:39 - Intento de inicio de sesión fallido para el usuario: 210848@utags.edu.mx
+2024-09-10 11:25:56 - Intento de inicio de sesión fallido para el usuario: 210848@utags.edu.mx
+2024-09-10 11:26:01 - Intento de inicio de sesión fallido para el usuario: 210848@utags.edu.mx
+2024-09-10 11:26:07 - Intento de inicio de sesión fallido para el usuario: 210848@utags.edu.mx
+2024-09-10 11:26:35 - Intento de inicio de sesión fallido para el usuario: 210848@utags.edu.mx
+2024-09-10 11:28:18 - Intento de inicio de sesión fallido para el usuario: 210848@utags.edu.mx
+2024-09-10 11:30:14 - Intento de inicio de sesión fallido para el usuario: jorgegarza2003@hotmail.com
+2024-09-10 11:30:23 - Intento de inicio de sesión fallido para el usuario: jorgegarza2003@hotmail.com
+2024-09-10 11:30:30 - Intento de inicio de sesión fallido para el usuario: jorgegarza2003@hotmail.com
+2024-09-10 11:30:38 - Intento de inicio de sesión fallido para el usuario: jorgegarza2003@hotmail.com
+2024-09-10 11:32:23 - Inicio de sesión exitoso para el usuario: 210848@utags.edu.mx
+2024-09-10 11:32:25 - Cierre de sesión para el usuario: 210848@utags.edu.mx
+2024-09-10 11:32:36 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-09-10 11:32:42 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-09-10 14:39:29 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-09-10 14:42:07 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-09-10 14:49:26 - Intento de inicio de sesión fallido para el usuario: jorgegarza2003@hotmail.com
+2024-09-10 14:49:33 - Intento de inicio de sesión fallido para el usuario: jorgegarza2003@hotmail.com
+2024-09-10 14:49:39 - Intento de inicio de sesión fallido para el usuario: jorgegarza2003@hotmail.com
+2024-09-10 14:50:37 - Intento de inicio de sesión fallido para el usuario: jorgegarza2003@hotmail.com
+2024-09-10 15:16:44 - Intento de inicio de sesión fallido para el usuario: 210002
+2024-09-10 15:16:45 - Intento de inicio de sesión fallido para el usuario: 210002
+2024-09-10 15:16:49 - Intento de inicio de sesión fallido para el usuario: 210002
+2024-09-10 15:16:51 - Intento de inicio de sesión fallido para el usuario: 210002
+2024-09-10 15:16:51 - Error al enviar correo electrónico: Invalid address:  (to): 210002
+2024-09-10 15:18:32 - Intento de inicio de sesión fallido para el usuario: 210002
+2024-09-10 15:18:32 - Error al enviar correo electrónico: Invalid address:  (to): 210002
+2024-09-10 15:18:34 - Intento de inicio de sesión fallido para el usuario: 210002
+2024-09-10 15:18:34 - Error al enviar correo electrónico: Invalid address:  (to): 210002
+2024-09-10 15:18:43 - Intento de inicio de sesión fallido para el usuario: 210002
+2024-09-10 15:18:43 - Error al enviar correo electrónico: Invalid address:  (to): 210002
+2024-09-10 15:23:04 - Intento de inicio de sesión fallido para el usuario: 210002
+2024-09-10 15:23:04 - Error al enviar correo electrónico: Invalid address:  (to): 210002
+2024-09-10 15:23:04 - Intento de inicio de sesión fallido para el usuario: 210002
+2024-09-10 15:23:04 - Error al enviar correo electrónico: Invalid address:  (to): 210002
+2024-09-10 15:23:11 - Intento de inicio de sesión fallido para el usuario: 210002
+2024-09-10 15:23:11 - Error al enviar correo electrónico: Invalid address:  (to): 210002
+2024-09-10 15:23:12 - Intento de inicio de sesión fallido para el usuario: 210002
+2024-09-10 15:23:12 - Error al enviar correo electrónico: Invalid address:  (to): 210002
+2024-09-10 15:31:42 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-09-10 22:51:32 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-09-10 22:51:38 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-09-10 22:51:40 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-09-11 19:32:22 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-09-11 19:38:32 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-09-11 19:39:29 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-09-11 19:53:42 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-09-12 03:26:25 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-09-12 03:26:33 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-09-12 17:11:58 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-09-13 01:11:21 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-09-13 01:11:28 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-09-13 01:18:58 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-09-13 01:19:05 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-09-13 10:41:02 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-09-13 10:41:10 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-09-13 10:53:54 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-09-13 10:54:01 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-09-13 19:21:45 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-09-13 19:21:55 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-09-15 23:21:33 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-09-15 23:21:42 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-09-16 11:02:46 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-09-16 12:24:16 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-10-08 11:13:48 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-10-08 11:13:51 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-10-08 11:15:38 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-10-08 11:15:40 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-10-08 11:15:44 - Intento de inicio de sesión fallido para el usuario: jorgegarza2003@hotmail.com
+2024-10-08 11:15:48 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-10-08 11:16:57 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-10-08 11:17:12 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-10-08 11:17:23 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-10-08 19:07:58 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-10-08 19:19:53 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-10-08 19:37:24 - Intento de inicio de sesión fallido para el usuario: emanzo@gmail.com
+2024-10-08 19:37:59 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-10-08 19:38:06 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-10-08 19:38:26 - Intento de inicio de sesión fallido para el usuario: emanzo@gmail.com
+2024-10-08 19:38:49 - Intento de inicio de sesión fallido para el usuario: emanzo@gmail.com
+2024-10-08 19:39:15 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-10-08 19:41:59 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com

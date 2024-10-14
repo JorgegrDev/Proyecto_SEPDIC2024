@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Juego</title>
+    <link rel="stylesheet" href="/Login/INFOGAME/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="/Login/INFOGAME/index.html" class="logo">INFOGAME</a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/Login/INFOGAME/index.html">Inicio</a></li>
+                    <li><a href="/Login/INFOGAME/novedades.html">Novedades</a></li>
+                    <li><a href="/Login/INFOGAME/clasicos.html">Clásicos</a></li>
+                    <li><a href="/Login/INFOGAME/otros.html">Otros</a></li>
+                </ul>
+            </nav>
+            <form action="" onsubmit="return buscarJuego(event)" autocomplete="off">
+                <div class="barra">
+                    <input type="search" placeholder="Buscar juego..." id="barra">
+                    <i class="fa fa-search"></i>
+                </div>
+            </form>
+        </div>
+    </header>
+
+    <main class="game-details container">
+        <div class="game-header">
+            <img src="/Login/INFOGAME/images/images/l1.jpg" alt="Imagen del juego">
+            <h1>Halo Reach</h1>
+            <p>Precio: MXN$159.20</p>
+        </div>
+        <div class="game-description">
+            <h2>Descripción del Juego</h2>
+            <p>Halo: Reach es un videojuego de disparos en primera persona desarrollado por Bungie y publicado por Microsoft Game Studios. Es el quinto juego de la serie Halo y sirve como precuela de Halo: Combat Evolved. El juego fue lanzado en septiembre de 2010 para la consola Xbox 360, actualmente es posible jugarlo en una consola de nueva generación de Xbox gracias a a la retrocompatibilidad.</p>
+        </div>
+        <div class="game-details-buttons">
+            <a href="https://www.xbox.com/es-mx/games/store/halo-reach/9nlgw5mxwkj6" target="_blank" class="btn-1">Comprar</a>
+            <a href="/Login/INFOGAME/index.html" class="btn-1">Volver</a>
+        </div>
+        
+    </main>
+
+    <footer class="footer container">
+        <div class="link">
+            <a href="/Login/INFOGAME/index.html" class="logo">INFOGAME</a>
+        </div>
+        <form action="../logout.php" method="post">
+            <button type="submit" class="btn-logout">Cerrar sesión</button>
+        </form>
+        <div class="link">
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="#">Soporte</a></li>
+                <li><a href="#">Preguntas</a></li>
+            </ul>
+        </div>
+        
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>

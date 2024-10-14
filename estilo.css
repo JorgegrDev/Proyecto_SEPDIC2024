@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color:#140000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.contendor-log{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.boxback{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.boxback div{
+    margin: 100px 170px;
+    color: white;
+    transition: all 500ms;
+
+}
+
+.boxback div p, .boxback div button{
+    margin-top: 30px;
+}
+.boxback div h3{
+    font-weight: 400;
+    font-size: 26px;
+    
+}
+
+.boxback button{
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    transition: all 350ms;
+
+}
+
+.boxback button:hover{
+    background: #fff;
+    color: #260303;
+}
+
+/*Formulario*/
+.contenedor_log-reg{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-width: 450px;
+    position: relative;
+    top: -185px;
+    left: 15px;
+    transition: left 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275)
+}
+.contenedor_log-reg form {
+    width: 100%;
+    padding: 80px 20px;
+    background:  #fff;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.contenedor_log-reg form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #000;
+
+
+}
+.contenedor_log-reg form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #0000000a;
+    font-size: 16px;
+    outline: none;
+}
+.contenedor_log-reg form button{
+    padding: 10px 40px ;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.945);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    border: 2.97px solid #2a0404;
+    outline: none;
+   
+}
+
+.f-log{
+    opacity: 1;
+    display: block;
+}
+.f-reg{
+    display: none;
+}
+
+/* Contenedor de los campos de entrada */
+.input-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+
+.input-field {
+    width: 100%;
+    padding-right: 40px; 
+    padding-left: .5rem;
+    box-sizing: border-box;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #121212;
+}
+
+
+.icon {
+    position: absolute;
+    height: 50%;
+    top: 65%;
+    right: 8px;
+    transform: translateY(-50%);
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.icon:hover {
+    opacity: 0.8;
+}
+
+.input-container.terminos {
+    white-space: pre;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 80%; 
+    margin: 0 auto; 
+    margin-top: 10px;
+}
+
+.input-container.terminos .checkbox {
+    margin-right: 5px; 
+    margin-top: 2px;
+}
+
+.popup {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+}
+
+.popup-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    justify-content: left;
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* diseño responsivo*/
+@media screen and (max-width: 850px){
+    main{
+        margin-top:  50px;
+    }
+
+    .boxback{
+        max-width: 450px;
+        height: 300px;
+        flex-direction: column;
+        margin: auto;
+    }
+    .boxback div{
+        margin: 0px;
+        position: absolute;
+    }
+    .contenedor_log-reg{
+        top: -10px;
+        left: -5px;
+        margin: auto;
+    }
+
+    .contenedor_log-reg form{
+        position: relative;
+    }
+}
