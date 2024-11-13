@@ -44,12 +44,12 @@ function buscarJuego(event) {
     
     // Diccionario de juegos disponibles y sus páginas correspondientes
     const juegosDisponibles = {
-        "ELDEN RING": "inicio/game-details-2.html",
-        "HALO REACH": "inicio/game-details.html",
-        "EA FC 24": "inicio/game-details-3.html",
-        "CLASH ROYALE": "inicio/game-details-4.html",
-        "CYBERPUNK 2077": "inicio/game-details-5.html",
-        "FORTNITE": "inicio/game-details-6.html",
+        "LEAGUE OF LEGENDS": "inicio/game-details-2.html",
+        "MARIO PARTY": "inicio/game-details.html",
+        "CONKER": "inicio/game-details-3.html",
+        "GTA": "inicio/game-details-4.html",
+        "SMASH BROS": "inicio/game-details-5.html",
+        "MINECRAFT": "inicio/game-details-6.html",
     };
     
     // Obtener el valor del input y convertirlo a mayúsculas
