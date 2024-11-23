@@ -49,7 +49,7 @@ function buscarJuego(event) {
         "EA FC 24": "inicio/game-details-3.html",
         "CLASH ROYALE": "inicio/game-details-4.html",
         "CYBERPUNK 2077": "inicio/game-details-5.html",
-        "FORTNITE": "inicio/game-details-6.html",
+        "FORNITE": "inicio/game-details-6.html",
     };
     
     // Obtener el valor del input y convertirlo a mayúsculas
