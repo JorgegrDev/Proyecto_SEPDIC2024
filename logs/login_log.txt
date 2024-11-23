@@ -97,3 +97,6 @@
 2024-10-08 19:41:59 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
 2024-10-18 13:24:39 - Intento de inicio de sesión fallido para el usuario: emanzo@gmail.com
 2024-10-18 13:24:46 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-11-01 18:09:34 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-11-02 00:44:33 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-11-23 12:01:47 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
