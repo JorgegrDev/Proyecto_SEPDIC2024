@@ -117,7 +117,7 @@ a {
     text-decoration: none !important; 
 }
   
-a:hover {
+  a:hover {
     text-decoration: none !important; 
 }
   
@@ -231,10 +231,10 @@ h3 {
     padding: 11px 35px;
     border: 2px solid #FFFFFF; 
     border-radius: 25px;
+    margin-right: -35px;
     font-size: 17px;
     color: #FFFFFF;
     background-color: transparent;
-    transition: all 0.3s ease-in-out;
 }
 
 .btn-logout:hover {
@@ -248,55 +248,359 @@ h3 {
     height: 100vh;           
 }
 
+.contact {
+    padding: 150px 300px;
+}
+
+.contact-content {
+    background-color: #1c1c1c; 
+    text-align: center;
+    padding: 5px;
+    border-radius: 50px;
+    color: white; 
+}
+
+.contact-content h3 {
+    margin-bottom: 30px;
+    color: #f0f0f0; 
+}
+
+.contact-content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-content input[type="text"], 
+.contact-content textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.contact-content input[type="text"] {
+    height: 50px;
+}
+
+.contact-content textarea {
+    height: 150px;
+    resize: none;
+}
+
+.contact-content input[type="submit"] {
+    padding: 15px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFA500; 
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-content input[type="submit"]:hover {
+    background-color: #00FFFF; 
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px 25px;
+    background-color: #333333; 
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    margin-right: 10px;
+    color: #00FFFF; 
+    font-size: 17px;
+}
+
+::placeholder {
+    color: #ffffff; 
+    font-size: 17px;
+}
+
+.btn-3 {
+    background-color: #FFA500; 
+    color: #000000; 
+    cursor: pointer;
+    margin-right: 5px;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; /* Se adapta a pantallas pequeñas */
-    padding: 20px 0;
-    background-color: #1f1f1f;
-    color: #FFFFFF;
+    padding: 50px 0;
 }
 
-.footer .logo {
-    font-size: 24px;
-    font-weight: 700;
-    color: #FFFFFF;
-}
-
-.footer .btn-logout {
-    padding: 8px 20px;
-    border: 1px solid #FFFFFF;
-    border-radius: 5px;
-    font-size: 16px;
-    background-color: transparent;
-    transition: all 0.3s ease-in-out;
-}
-
-.footer .btn-logout:hover {
-    background-color: #00FFFF;
-    color: #000000;
-}
-
-.footer .link {
+.link {
     display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    list-style: none;
+    align-items: center;
 }
 
-.footer .link ul {
-    display: flex;
-    gap: 15px;
+.link ul li > a {
+    font-size: 17px;
+    color: #FFFFFF; 
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
-.footer .link ul li a {
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 500;
-    transition: color 0.3s ease;
+.link ul li > a:hover {
+    color: #00FFFF; 
 }
 
-.footer .link ul li a:hover {
+.barra{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+}
+
+.barra input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
     color: #00FFFF;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
 }
+
+.barra:hover{
+    width: 300px;
+    cursor: pointer;
+}
+
+.barra:hover input{
+    display: block;
+}
+
+.barra:hover .fa{
+    background: #00FFFF;
+    color: white;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    width: 25%;
+    flex-shrink: 0;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFFFFF; /* Blanco */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-btn.prev {
+    left: 10px;
+}
+
+.carousel-btn.next {
+    right: 10px;
+}
+
+
+@media(max-width: 991px) {
+
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #1c1c1c; 
+        display: none;
+    }
+
+    .menu .navbar ul li a:hover {
+        color: #00FFFF; 
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-txt {
+        text-align: center;
+        flex-basis: 100%;
+    }
+
+    .header-txt h1 {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .butons {
+        justify-content: center;
+    }
+
+    .btn-1:last-of-type {
+        margin-right: 0;
+    }
+
+    .popular {
+        display: none;
+    }
+
+    .product {
+        padding: 30px;
+    }
+
+    .product-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .product-1 img {
+        width: 100%;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    input {
+        margin: 0 0 20px 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .link ul {
+        margin-top: 30px;
+    }
+}
+
+.game-details {
+    padding: 50px 0;
+}
+
+.game-header {
+    text-align: center;
+}
+
+.game-header img {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.game-description {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.game-details-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.game-details-buttons .btn-1 {
+    margin: 0 20px;
+}
+
+.faq {
+    padding: 100px 30px;
+}
+
+.faq-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    margin-bottom: 30px;
+}
+
+.faq-item h3 {
+    font-size: 24px;
+    color: #00FFFF; 
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 16px;
+    color: #FFFFFF; 
+    line-height: 1.6;
+}
+
+
+
+
+
