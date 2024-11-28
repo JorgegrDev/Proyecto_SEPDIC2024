@@ -102,3 +102,5 @@
 2024-11-23 12:01:47 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
 2024-11-23 12:18:56 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
 2024-11-23 12:19:02 - Intento de inicio de sesión fallido para el usuario: jorgegarza2003@hotmail.com
+2024-11-25 23:13:54 - Cierre de sesión para el usuario: Usuario desconocido
+2024-11-27 20:02:46 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
