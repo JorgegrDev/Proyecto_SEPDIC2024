@@ -4,136 +4,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INFOGAME - Novedades</title>
+    <link rel="icon" href="/Login/icon.jpg.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
+<body class="bg-custom">
 
-    <header class="header bg-light py-3">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a href="/login/index.html" class="logo">INFOGAME</a>
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/Login/INFOGAME/index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Novedades</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/Login/INFOGAME/clasicos.html">Clásicos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/Login/INFOGAME/otros.html">Otros</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" onsubmit="return buscarJuego(event)">
-                        <input class="form-control me-2" type="search" placeholder="Buscar juego..." id="barra">
-                        <button class="btn btn-outline-success" type="submit"><i class="fa fa-search"></i></button>
-                    </form>
-                </div>
+    <header class="header">
+
+        <div class="menu container">
+            <a href="/Login/INFOGAME/index.html" class="logo">INFOGAME</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/Login/INFOGAME/index.html">Inicio</a></li>
+                    <li><a href="#" class="active">Novedades</a></li>
+                    <li><a href="/Login/INFOGAME/clasicos.html">Clásicos</a></li>
+                    <li><a href="/Login/INFOGAME/otros.html">Otros</a></li>
+                </ul>
             </nav>
+            <form action="" onsubmit="return buscarJuego(event)" autocomplete="off">
+                <div class="barra">
+                    <input type="search" placeholder="Buscar juego..." id="barra">
+                    <i class="fa fa-search"></i>
+                </div>
+            </form>
         </div>
 
-        <div class="container text-center my-4">
-            <h1>Novedades</h1>
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>Lo más nuevo en videojuegos</h1>
+                <p></p>
+            </div>
         </div>
+
     </header>
 
     <main class="container my-5">
         <h2 class="text-center mb-4">Lo más nuevo en videojuegos!</h2>
         <div class="row">
             <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="images/images/l1.jpg" class="card-img-top" alt="Novedades 1">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Novedades 1</h5>
-                        <p class="card-text">MXN$159.20</p>
-                        <a href="game-details.html" class="btn btn-primary">Ver más</a>
+                <div class="product-1">
+                    <img src="images/images/l1.jpg" alt="Novedades 1">
+                    <div class="product-txt">
+                        <h3>Novedades 1</h3>
+                        <div class="price">
+                            <p>MXN$159.20</p>
+                            <a href="game-details.html" class="btn btn-outline-primary">Ver más</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="images/images/eldenring2 (1).jpeg" class="card-img-top" alt="Novedades 2">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Novedades 2</h5>
-                        <p class="card-text">MXN$679.00</p>
-                        <a href="game-details-2.html" class="btn btn-primary">Ver más</a>
+                <div class="product-1">
+                    <img src="images/images/eldenring2 (1).jpeg" alt="Novedades 2">
+                    <div class="product-txt">
+                        <h3>Novedades 2</h3>
+                        <div class="price">
+                            <p>MXN$679.00</p>
+                            <a href="game-details-2.html" class="btn btn-outline-primary">Ver más</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="images/images/EAFC24 (1).jpg" class="card-img-top" alt="Novedades 3">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Novedades 3</h5>
-                        <p class="card-text">MXN$220.00</p>
-                        <a href="game-details-3.html" class="btn btn-primary">Ver más</a>
+                <div class="product-1">
+                    <img src="images/images/EAFC24 (1).jpg" alt="Novedades 3">
+                    <div class="product-txt">
+                        <h3>Novedades 3</h3>
+                        <div class="price">
+                            <p>MXN$220.00</p>
+                            <a href="game-details-3.html" class="btn btn-outline-primary">Ver más</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="images/images/l3.jpg" class="card-img-top" alt="Novedades 4">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Novedades 4</h5>
-                        <p class="card-text">GRATIS</p>
-                        <a href="game-details-4.html" class="btn btn-primary">Ver más</a>
+                <div class="product-1">
+                    <img src="images/images/l3.jpg" alt="Novedades 4">
+                    <div class="product-txt">
+                        <h3>Novedades 4</h3>
+                        <div class="price">
+                            <p>GRATIS</p>
+                            <a href="game-details-4.html" class="btn btn-outline-primary">Ver más</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="images/images/l4.jpg" class="card-img-top" alt="Novedades 5">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Novedades 5</h5>
-                        <p class="card-text">$300</p>
-                        <a href="#" class="btn btn-primary">Ver más</a>
+                <div class="product-1">
+                    <img src="images/images/l4.jpg" alt="Novedades 5">
+                    <div class="product-txt">
+                        <h3>Novedades 5</h3>
+                        <div class="price">
+                            <p>$300</p>
+                            <a href="#" class="btn btn-outline-primary">Ver más</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="images/images/l5.jpg" class="card-img-top" alt="Novedades 6">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Novedades 6</h5>
-                        <p class="card-text">GRATIS</p>
-                        <a href="error.html" class="btn btn-primary">Ver más</a>
+                <div class="product-1">
+                    <img src="images/images/l5.jpg" alt="Novedades 6">
+                    <div class="product-txt">
+                        <h3>Novedades 6</h3>
+                        <div class="price">
+                            <p>GRATIS</p>
+                            <a href="error.html" class="btn btn-outline-primary">Ver más</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
 
-    <footer class="footer bg-light py-4">
-        <div class="container text-center">
-            <a href="/Login/INFOGAME/index.html" class="logo">INFOGAME</a>
-            <div class="mt-3">
-                <form action="../logout.php" method="post">
-                    <button type="submit" class="btn btn-outline-danger">Cerrar sesión</button>
-                </form>
-            </div>
-            <ul class="list-inline mt-3">
-                <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-                <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-                <li class="list-inline-item"><a href="#">Soporte</a></li>
-                <li class="list-inline-item"><a href="#">Preguntas</a></li>
+    <footer class="footer container">
+        <div class="address container">
+            <p>Blvd. Juan Pablo II No. 1302 Ex hacienda la Cantera,<p> 20200 Aguascalientes, Ags.</p>
+        </div>
+        <div class="logout container">
+            <form action="../logout.php" method="post">
+                <button type="submit" class="btn-logout">Cerrar sesión</button>
+            </form>
+        </div>
+        <div class="link">
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="#">Soporte</a></li>
+                <li><a href="#">Preguntas</a></li>
             </ul>
         </div>
     </footer>
 
-    <script src="/INFOGAME/Script.js"></script>
+    <script src="Script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
