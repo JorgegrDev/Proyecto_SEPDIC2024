@@ -113,3 +113,9 @@
 2024-11-29 18:09:48 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
 2024-11-29 18:10:04 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
 2024-11-29 19:28:22 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-11-29 19:31:00 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-11-29 20:30:35 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-11-29 21:06:34 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-11-29 22:04:28 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
+2024-11-30 11:37:22 - Inicio de sesión exitoso para el usuario: jorgegarza2003@hotmail.com
+2024-11-30 11:37:27 - Cierre de sesión para el usuario: jorgegarza2003@hotmail.com
